@@ -1,0 +1,114 @@
+footer {
+  .footer_bloc-1 {
+    background: #5556fd;
+
+    p {
+      padding: 25px 80px;
+      color: #fff;
+      text-align: center;
+      margin: 0;
+
+      @media screen and (max-width: 768px) {
+        padding: 25px 40px;
+      }
+
+      @media screen and (max-width: 500px) {
+        padding: 25px 20px;
+      }
+    }
+  }
+
+  .footer_bloc-2 {
+    background-color: rgba(85, 86, 253, 0.05);
+    padding-bottom: 40px;
+
+    h2 {
+      padding: 40px 0 20px;
+    }
+
+    form {
+      .field {
+        display: flex;
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+      }
+      input {
+        width: 100%;
+        max-width: 500px;
+        padding: 15px 20px;
+        border-radius: 2px;
+        background-color: #ffffff;
+        border: none;
+        outline: none;
+      }
+      button {
+        width: 55px;
+        background: #5556fd;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          width: 100%;
+          max-width: 27px;
+        }
+      }
+    }
+
+    @media screen and (max-width: 850px) {
+      padding: 0 40px 40px;
+    }
+
+    @media screen and (max-width: 500px) {
+      padding: 0 20px 40px;
+    }
+  }
+
+  .footer_bloc-3 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+    ul {
+      padding: 25px 40px;
+
+      &:last-child {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 530px;
+      }
+
+      li {
+        a {
+          color: #5556fd;
+          text-decoration: none;
+        }
+      }
+    }
+
+    @media screen and (max-width: 850px) {
+      flex-direction: column;
+      padding: 20px 0;
+
+      ul {
+        padding: 0;
+        &:last-child {
+          flex-direction: column;
+          max-width: 315px;
+        }
+
+        li {
+          margin: 5px 0;
+        }
+      }
+
+    }
+
+    @media screen and (max-width: 500px) {
+
+    }
+  }
+}
